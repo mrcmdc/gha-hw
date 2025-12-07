@@ -1,0 +1,11 @@
+name: hw-workflow
+on: workflow_dispatch
+jobs: 
+  hw-workflow-myjob01:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Imprimindo Saudação
+        run: echo "Hello World!!!!"
+      - name: Terminando o Hello World
+        run: echo "Fui!!!"
+      
