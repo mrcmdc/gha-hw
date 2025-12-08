@@ -8,3 +8,14 @@ jobs:
         run: echo "Olá, meu primeiro gha!"
       - name: Terminando o job
         run: echo "Terminou!"
+  Meu-segundo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Primeiro Step do Segundo Job
+        run: echo "Meu segundo job"
+      - name: Segundo Step
+        run: date
+      - name: Finalizado o Workflow
+        run: echo "Workflow Concluído"
+        
+    
