@@ -1,0 +1,10 @@
+name: GHA Workflow
+on: workflow_dispatch
+jobs:
+  Meu-primeiro-job:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Saudação
+        run: echo "Olá, meu primeiro gha!"
+      - name: Terminando o job
+        run: echo "Terminou!"
