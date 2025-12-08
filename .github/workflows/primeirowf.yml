@@ -9,5 +9,4 @@ jobs:
       - name: Hello World
         run: echo "Hello World!"
       - name: Termino
-        run: echo "Feito."
-        
+        run: echo "Feito - Tchau-tchau."
