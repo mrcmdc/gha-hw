@@ -1,0 +1,13 @@
+name: Primeiro Workflow
+on: workflow_dispatch
+jobs:
+  primeiro-job: 
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Inicio do Primeiro Job
+        run: echo "Inicio do primeiro job..."
+      - name: Hello World
+        run: echo "Hello World!"
+      - name: Termino
+        run: echo "Feito."
+        
